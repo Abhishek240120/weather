@@ -1,0 +1,51 @@
+.name{
+	color:red;
+}
+.name2{
+	color:red;
+	opacity: 0.7;
+}
+.current-weather{
+    margin-top:5%;
+	height:500px;
+	width:100%;
+	background-image :url(https://cdn.dribbble.com/users/925716/screenshots/3333720/attachments/722375/night.png?compress=1&resize=400x300);
+}
+
+.current-weather-details{
+	padding:10px 10px 10px 10px;
+	
+}
+
+.condition{
+	font-family: cursive;
+	color:Tomato;
+	font-size: 40px;
+	font-style:bold;
+}
+.more-condition{
+	font-family: cursive;
+	color:Tomato;
+	font-size: 30px;
+	font-style:bold;
+	float: right;
+}
+.forcast{
+	margin-top:20px;
+	
+}
+
+.forcast-details{
+	font-style:bold;
+	font-size: 30px;
+}
+.forcast-details-explain{
+	
+	font-size: 30px;
+	margin-top:20px;
+	overflow-x: auto; 
+}
+.footer{
+	color:red;
+	margin-top:40px;
+}

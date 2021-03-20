@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Main1 from "./main1.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <nav className="navbar  navbar-dark bg-primary fixed-nav-bar">
+            <div className="container-fluid">
+            <img src="https://image.flaticon.com/icons/png/128/2698/2698194.png"/>
+                <span className="navbar-brand">Weather ForeCast</span> 
+            </div>
+        </nav>
+        <div className="container">
+        <Main1 />
+        </div>
+        <div className="footer">
+        <footer>Developed by Abhishek Kumar</footer>
+        </div>
     </div>
   );
 }
